@@ -1,2 +1,2 @@
 ## html-css-project
-# for patica project
+# for patika project
