@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container>span:nth-child(1) {
+    font-size: 2rem;
+    color: blue;
+}
+.container>span:nth-child(3){
+    font-size: 1.5rem;
+    color: rgb(12, 12, 128);
+}
+.navbar{
+    gap: 10px;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.692);
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(56, 56, 56, 0.5);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.product:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+}
